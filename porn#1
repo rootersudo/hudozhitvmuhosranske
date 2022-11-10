@@ -1,0 +1,18 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {   int g;
+       string text = " pizduc ebal mamku straponom ";
+        string b;
+        string[] words = text.Split(new char[] { ' ' });
+        g=words.Length-1;
+        
+       
+        for(int i =g;i>=0;--i)
+        {
+            Console.WriteLine(words[i]);
+        }       
+    }
+}
